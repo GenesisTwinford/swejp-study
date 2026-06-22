@@ -23,5 +23,6 @@ https://www.learn-cpp.org/en/Arrays
   - Cではstdio.hと書いたが、C++ではiostreamと書く。  
   stdio.hは型安全性が低いが速い。printf()で出力。  
   iostreamは型安全性が高いが遅い。cout <<で出力。
+  - using namespace std;によってstd::endl;とかを省略
   - floatは約6~7桁、doubleは約15～16桁の小数含む有効数字に使う。
   - <<は、情報を右から左に流す（挿入・結合）という意味合いがある。
