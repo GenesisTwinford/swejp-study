@@ -1,0 +1,29 @@
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int age[] = {16,48,72,66,23};
+
+    for(int i = 0; i < 5; i++)
+    {
+        if(age[i] < 20)
+        {
+            cout << "Child" << endl;
+        }
+        else if(age[i] >= 20 && age[i] <60)
+        {
+            cout << "Aduld" << endl;
+        }
+        else
+        {
+            cout << "Retired" << endl;
+        }
+    }
+}
+```
+- 問題
+  https://www.learn-cpp.org/en/if-else
+- メモ
+  - 
